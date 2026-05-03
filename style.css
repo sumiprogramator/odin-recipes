@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(175, 94, 94);
+}
+
+.title.main {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.title.text {
+    color: whitesmoke;
+}
+
+.container.description {
+    margin: 50px;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(157, 29, 29);
+    border: 2px;
+    border-radius: 40px;
+    
+}
+.description {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.list.container { 
+    margin: 30px;
+}
+
+.selection{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-left: 0;
+    width: 250px;
+    list-style: none;
+}
+
+.selection.element {
+    text-decoration: none;
+    margin: 10px;
+    background-color: rgb(227, 59, 59);
+    color: white;
+    border-radius: 30px;
+    padding: 5px;
+}
